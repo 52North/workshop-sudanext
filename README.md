@@ -30,6 +30,6 @@ Slides: https://docs.google.com/presentation/d/1EWMErdxzuQiQHv9GytObQFIuPZr9fziB
   * [Standards Roadmap](https://www.ogc.org/roadmap)
 * Important Standards
   * Catalogue (implemented by )
-    * OGC CSW
-    * OGC API for Records
+    * OGC CSW (2007: 2.0.2, 2016: 3.x)
+    * [OGC API for Records](https://ogcapi.ogc.org/records/) (Successor for OGC CSW)
     * [STAC](https://docs.pycsw.org/en/latest/stac.html)
