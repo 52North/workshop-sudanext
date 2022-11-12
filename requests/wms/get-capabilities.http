@@ -1,0 +1,3 @@
+GET http://localhost/geoserver/ows
+?service=wms
+&request=GetCapabilities

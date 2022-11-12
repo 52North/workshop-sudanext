@@ -1,0 +1,3 @@
+GET https://canwinmap.ad.umanitoba.ca/catalogue/csw
+?request=GetCapabilities
+&service=CSW
