@@ -28,8 +28,20 @@ Slides: https://docs.google.com/presentation/d/1EWMErdxzuQiQHv9GytObQFIuPZr9fziB
 * Opengeospatial Consortium (OGC)
   * [OGC Standards](https://www.ogc.org/docs/is)
   * [Standards Roadmap](https://www.ogc.org/roadmap)
-* Important Standards
-  * Catalogue (implemented by )
+* Important Open Standards
+  * Catalogue (implemented by [pycsw](https://docs.pycsw.org/))
     * OGC CSW (2007: 2.0.2, 2016: 3.x)
+    * [Implemented Features](https://docs.pycsw.org/en/2.6.1/introduction.html#standards-support)
     * [OGC API for Records](https://ogcapi.ogc.org/records/) (Successor for OGC CSW)
     * [STAC](https://docs.pycsw.org/en/latest/stac.html)
+  * Remote Services
+    * OGC APIs
+    * [OGC WMS](https://www.ogc.org/standards/wms)/[OGC WMTS](https://www.ogc.org/standards/wmts)
+    * [OGC WFS](https://www.ogc.org/standards/wfs)
+    * [OGC WCS](https://www.ogc.org/standards/wcs)
+    * OGC SensorThings API
+  * Data Encoding
+    * ISO TC211 and OGC ([ISO 191xx series](https://en.wikipedia.org/wiki/List_of_International_Organization_for_Standardization_standards,_18000-19999#ISO_19000_%E2%80%93_ISO_19999))
+    * OGC SensorML
+    * OGC SweCommon
+    * OGC GML
