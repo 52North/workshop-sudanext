@@ -24,7 +24,7 @@ Slides: https://docs.google.com/presentation/d/1EWMErdxzuQiQHv9GytObQFIuPZr9fziB
 You can find an already initialized geonode project for this workshop under [the sudanext folder](sudanext). 
 For the hands-on session leave it as is and try to create your own geonode project. 
 
-Before you start, install some tool managing virtual environments (like `virtualenvwrapper`, `venv`, `pipenv`, ...). We are going to use [virutalenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/).
+Before you start, install some tool managing virtual environments (like `virtualenvwrapper`, `venv`, `pipenv`, ...). We are going to use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/).
 
 Follow the instructions step by step in a dedicated working directory:
 
