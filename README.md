@@ -6,10 +6,9 @@ Slides: https://docs.google.com/presentation/d/1EWMErdxzuQiQHv9GytObQFIuPZr9fziB
 
 | Time | Topic |
 |------|-------|
-| 9:30 | Introduction Participants and expectations |
-|      | Who are we @ 52°North GmbH|
-| 10:00 | Introduction to <br/> - GeoNode and Remote Services <br/> - Running GeoNode Instances|
-| 11:00 | Hands-On Installation <br/> - What will be installed? <br/> - Installation
+| 9:30 | Introduction Participants and expectations <br/> Who are we @ 52°North GmbH |
+| 10:00 | Introduction to <br/> - GeoNode and Remote Services <br/> - Running GeoNode Instances |
+| 11:00 | Hands-On Installation <br/> - What will be installed? <br/> - Installation |
 | 12:00 | Uplaoding Data |
 | 12:30 | Lunch Break |
 | 13:00 | Hands-On GeoNode |
