@@ -4,18 +4,20 @@ Slides: https://docs.google.com/presentation/d/1EWMErdxzuQiQHv9GytObQFIuPZr9fziB
 
 ## Agenda
 
-| Time | Topic |
-|------|-------|
-| 9:30 | Introduction Participants and expectations <br/> Who are we @ 52°North GmbH |
-| 10:00 | Introduction to <br/> - GeoNode and Remote Services <br/> - Running GeoNode Instances |
-| 11:00 | Hands-On Installation <br/> - What will be installed? <br/> - Installation |
-| 12:00 | Uploading Data |
-| 12:30 | Lunch Break |
-| 13:00 | Hands-On GeoNode |
-| 14:00 | Development Clients/Dashboards |
-| 14:15 | Customizing and Extending GeoNode |
-| 14:45 | Questions and Open Discussion |
-| 15:?? | End of Workshop |
+**Start:** 9:00 am
+
+| Topic |
+|------|
+| Introduction Participants and expectations <br/> Who are we @ 52°North GmbH |
+| Introduction to <br/> - GeoNode and Remote Services <br/> - Running GeoNode Instances |
+| Hands-On Installation <br/> - What will be installed? <br/> - Installation |
+| Uploading Data |
+| Lunch Break |
+| Hands-On GeoNode |
+| Development Clients/Dashboards |
+| Customizing and Extending GeoNode |
+| Questions and Open Discussion |
+| End of Workshop |
 
 
 ## Installation via geonode-project
