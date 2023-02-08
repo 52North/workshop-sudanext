@@ -20,30 +20,19 @@ Slides: https://docs.google.com/presentation/d/1aGJ2nvTk7fVlGOVQva4LpW1nL3w3qIOh
 | End of Workshop |
 
 
-## Installation via geonode-project
+## Installation of geonode
 
-The following instructions a the essence what you have to do when creating a GeoNode project from the [official geonode template](https://github.com/GeoNode/geonode-project). You can find an already initialized geonode project for this workshop under [the sudanext folder](sudanext). 
-For the hands-on session leave it as is and try to create your own geonode project. 
-
-Before you start, install some tool managing virtual environments (like `virtualenvwrapper`, `venv`, `pipenv`, ...). We are going to use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/).
-
-Follow the instructions step by step in a dedicated working directory:
+The following instructions describe how to run GeoNode.
+Checkout GeoNode:
 
 ```sh
-# do not copy blindly the whole snippet 
-$ git clone https://github.com/GeoNode/geonode-project.git -b 4.x
-$ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
-$ mkvirtualenv --python=/usr/bin/python3 sudanext
-$ # Prompt gets prefixed with the active environment
-$ (sudanext) pip install Django==3.2.16
-$ (sudanext) django-admin startproject --template=./geonode-project -e py,sh,md,rst,json,yml,ini,env,sample,properties -n monitoring-cron -n Dockerfile sudanext
+git clone https://github.com/geonode/geonode
 ```
 
-You should find a `sudanext` directory containing your prepared GeoNode project. Now, go into that directory and run `python create-envfile.py`.
+Optional: Open `.env` file and set `COMPOSE_PROJECT_NAME=sudanext` which will create containers with labels containing `sudanext`.
 
-**Note:** Here and there, users report about authentication issues between GeoNode and GeoServer. Maybe the geonode-project has some flaws (not found out, yet).
-
-To build the project, run docker compose:
+You can either start GeoNode (and its accompanying services) via docker-compose or as `devcontainer` from VS-Code.
+The simplest approach would be to run:
 
 ```sh
 # the build will take quite a while
@@ -53,6 +42,12 @@ docker compose up -d
 # once running you can follow the logs
 docker compose logs -f
 ```
+
+After build and startup completes you can access 
+
+* GeoNode from http://localhost
+* GeoServer from http://localhost/geoserver
+
 
 ## Useful Docker Commands
 
