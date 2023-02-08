@@ -1,4 +1,4 @@
-# GeoNode Workshop SudeNext
+# GeoNode Workshop SudaNext
 
 Slides: https://docs.google.com/presentation/d/1aGJ2nvTk7fVlGOVQva4LpW1nL3w3qIOhXNxLpXBvsRo/edit
 
